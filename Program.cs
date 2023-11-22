@@ -3,8 +3,8 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        // Создает  из имеющегося массива строк array1 формирует массив array2 из строк, 
-        //длина которых меньше либо равна 3 символа.
+        // Из имеющегося массива строк array1 формирует массив array2 из строк, 
+        // длина которых меньше либо равна 3 символам.
         void SecondArray(string[] array1, string[] array2)
         {
             int count = 0;
@@ -26,7 +26,7 @@ internal class Program
             }
             Console.WriteLine();
         }
-        string[] arrOne = new string[6] { "789", "45", "qwerty", "war", "insert", "R" };
+        string[] arrOne = new string[6] { "7894", "45", "qwerty", "war", "insert", "R" };
         string[] arrTwo = new string[arrOne.Length];
         SecondArray(arrOne, arrTwo);
         PrintArray(arrOne);
